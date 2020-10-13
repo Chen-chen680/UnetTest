@@ -52,5 +52,5 @@ if __name__ == "__main__":
     net.to(device=device)
 
     # 指定训练集地址，开始训练
-    data_path = ".\\train\\image"
+    data_path = ".\\out"
     train_net(net, device, data_path)
